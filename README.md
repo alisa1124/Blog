@@ -1,4 +1,5 @@
 ##开发google 插件
+>开发了一个英汉互译的插件
 
 ###首先、配置一个manifest.json
 ```javascript
