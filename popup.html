@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+        <title>titile</title>
+        <style type="text/css">
+            *{margin:0;padding:0;}
+            body{color:#333;overflow: hidden;margin: 0px;padding:5px;background: white;font-size:12px;}
+            img{margin:0 4px;}
+            .wrap{
+                width: 400px;
+                padding-bottom: 10px;
+                margin: 0 auto;
+                background: #fff;
+                border:1px solid #f00s;
+            }
+            .text{
+                height: 140px;
+            }
+            .textarea{
+                padding: 10px;
+                height: 140px;
+                width: 50%;
+                border: 0;
+                resize: none;
+                outline: 0;
+                z-index: 3;
+                color: #333;
+                font-size: 12px;
+                overflow: hidden;
+                float: left;
+                box-sizing: border-box;
+                border:2px solid #eee;
+            }
+            .jieguo{
+                width: 44%;
+                padding: 10px 3%;
+                float: left;
+                height: 120px;
+                background: #eee;
+            }
+            .btn{
+                display: block;
+                margin: 10px auto;
+                width: 110px;
+                height: 35px;
+                color: #fff;
+                font: normal 16px/35px 'Microsoft Yahei';
+                text-align: center;
+                background: #57dbe6;
+                border:none;
+                border-radius: 3px;
+                outline: none;
+                cursor: pointer;
+            }
+            .btn:active,.btn:hover{
+                background: #3dc4d0;
+            }
+        </style>
+    </head>
+
+    <body>
+    <div class="wrap">
+        <div class="text">
+            <textarea class="textarea" id="baidu_translate_input" data-height="140" placeholder="英汉互译"></textarea>
+            <div class="jieguo js_result"></div>
+        </div>
+        <button class="btn js_search">翻 译</button>
+    </div>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="./popup.js"></script>
+    </body>
+</html>
+
