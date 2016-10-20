@@ -1,6 +1,6 @@
 ##开发google 插件
 
-配置一个manifest.json
+###首先、配置一个manifest.json
 ```javascript
 {
     "manifest_version": 2,
@@ -17,3 +17,7 @@
     ]
 }
 ```
+
+### 主文件 popup.html
+
+正常html文件，js目录也与正常开发一样
